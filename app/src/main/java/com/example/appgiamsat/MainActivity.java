@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, PieChartActivity.class);
                 startActivity(intent);
-
+                System.out.println("dong moi");
             }
         });
     }
